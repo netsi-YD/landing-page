@@ -1,66 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Landing page</title>
-    <link href="styles.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="headercontainer">
-        <div class="headerlogo">Header Logo</div>
+    <header>
+        <div class="logo">Header Logo</div>
+
         <ul>
-            <li><a href="#">header link one</a></li>
-                        <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-
+            <li class="secondary-text">link 1</li>
+            <li class="secondary-text">link 2</li>
+            <li class="secondary-text">link 3</li>
         </ul>
-    </div>
-    <div class="bodycontainer">
-        <div class="title">This website is awesome</div>
-        <div class="notes">This website has some subtext that goes here under the main title.its a smaller font and the color is lower contrast</div>
-        <button>sign up</button>
-    </div>
-    <div class="bodyImage">
-<img src="" alt="">
-    </div>
-       
-    <div class="newcontainer">
-<div class="title">Some random information.</div>
-<div class="boxes">
-    <div class="squares">
-    <span>this is some subtext under an illustration or image</span>
-</div>
-<div class="squares">
-    <p>this is some subtext under an illustration or image</p>
-</div>
-<div class="squares">
-    <p>this is some subtext under an illustration or image</p>
-</div>
-<div class="squares">
-    <p>this is some subtext under an illustration or image</p>
-</div>
+    </header>
 
-    </div>
-
-<div class="section3">
-<p>This is an aspiring quote ,pr a testimonal from a customer. maybe its just filling up space or maybe people will actually read it who knows? all I know is that it looks nice.</p>
-<span><strong>-Thor,God of Thunder</strong></span>
-
-<div class="section4">
-    <div>
-        <div>
-            <h5>Call to action!its time!</h5>
-<span>sign up for our product by clicking that button right over there!</span>
+    <div class="card dark-background">
+        <div class="card-content">
+            <div class="card-body">
+                <div class="main-text">This website is awesome</div>
+                <div class="secondary-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nobis minima est officiis excepturi
+                    voluptatum, soluta repellendus, nulla tempore ab quam sequi aut ipsa, accusantium explicabo fuga
+                    doloremque quibusdam laborum.
+                </div>
+            </div>
+            <button class="card-button">Sign Up</button>
         </div>
-        <button>
-            sign up
-        </button>
-</div>
-</div>
+        <img class="image-big" src="animals.jpg">
+    </div>
 
-<div class="section5">
-    <span> Copyright &copy; The odin project 2021</span>
+    <div class="card-white">
 
-</div>
+        <div class="information-header-text">Some random information</div>
+        <div class="grid">
+            <!-- here goes the four cards -->
+            <div class="card-small">
+                <img class="img-small" src="animals.jpg" alt="animals">
+                <div class="secondary-text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste
+                    nemo veniam eveniet exercitationem voluptatibus maxime eligendi enim quo quaerat facere doloremque
+                    dicta vero placeat maiores incidunt, eum cum ea?</div>
+            </div>
+            <div class="card-small">
+                <img class="img-small" src="animals.jpg" alt="animals">
+                <div class="secondary-text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste
+                    nemo veniam eveniet exercitationem voluptatibus maxime eligendi enim quo quaerat facere doloremque
+                    dicta vero placeat maiores incidunt, eum cum ea?</div>
+            </div>
+            <div class="card-small">
+                <img class="img-small" src="animals.jpg" alt="aniamls">
+                <div class="secondary-text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste
+                    nemo veniam eveniet exercitationem voluptatibus maxime eligendi enim quo quaerat facere doloremque
+                    dicta vero placeat maiores incidunt, eum cum ea?</div>
+            </div>
+            <div class="card-small">
+                <img class="img-small" src="animals.jpg" alt="animals">
+                <div class="secondary-text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste
+                    nemo veniam eveniet exercitationem voluptatibus maxime eligendi enim quo quaerat facere doloremque
+                    dicta vero placeat maiores incidunt, eum cum ea?</div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="quote-bg">
+        <div class="quote">
+            <div class="quote-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci temporibus veniam perspiciatis
+                necessitatibus magni maxime id rem, at libero, accusamus eaque illo sint non cumque eligendi animi et.
+                Non.
+            </div>
+            <div class="information-header-text quote-author">
+                -Hussein Hany
+            </div>
+        </div>
+    </div>
+
+    <div class="call">
+        <div class="main-text">
+            Call to action! It's time!
+            <div class="secondary-text">
+                Sign up for our product by clicking this button
+            </div>
+        </div>
+
+        <button class="call-button">Sign Up</button>
+    </div>
+
+    <footer class="dark-background secondary-text">
+        Copyright @ 3ein39
+    </footer>
 </body>
+
 </html>
